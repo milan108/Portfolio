@@ -1,2 +1,3 @@
 0c00ff - Blue
 e50606 - Red
+c0c0c0 - Grey

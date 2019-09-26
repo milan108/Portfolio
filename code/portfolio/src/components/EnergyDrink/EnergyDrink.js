@@ -1,5 +1,5 @@
 import React from 'react';
-import can from '../images/can.png';
+import can from '../../images/can.png';
 import './EnergyDrink.scss';
 
 const EnergyDrink = props => {

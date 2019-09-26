@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import Section from './containers/Section';
-import Title from './components/Title';
-import EnergyDrink from './components/EnergyDrink';
+import Section from './containers/Section/Section';
+import Title from './components/Title/Title';
+import EnergyDrink from './components/EnergyDrink/EnergyDrink';
 
 function App() {
     return (
@@ -11,7 +11,7 @@ function App() {
                 <Title />
                 <EnergyDrink />
             </Section>
-            <Section color='#000'></Section>
+            <Section color='#c0c0c0'></Section>
         </div>
     );
 }
