@@ -11,10 +11,10 @@ const SocialNavBar = props => {
 		<Nav>
 			<div className='Nav-Social'>
 				<ul>
-					<li><span className='mobile'><img src={mobile}/></span>647-221-7265</li>
-					<li><span className='envelope'><img src={envelope}/></span>milan.lastname@outlook.com</li>
-					<li><img src={github_logo} />milan108</li>
-					<li><img src={linkedin_logo} />milan-m</li>
+					<li><span className='mobile'><img src={mobile} alt="" /></span>647-221-7265</li>
+					<li><span className='envelope'><img src={envelope} alt="" /></span>milan.lastname@outlook.com</li>
+					<li><img src={github_logo} alt="" />milan108</li>
+					<li><img src={linkedin_logo} alt="" />milan-m</li>
 				</ul>	
 			</div>
 		</Nav>

@@ -11,8 +11,9 @@
 	}
 	.Nav-Social { 
 		background-color:#000;		
-		height: 30px;
+		height: 44px;
 		ul{
+			padding:5px 5px 10px 0;
 			li {
 				text-decoration: none;
 				font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', sans-serif;
@@ -28,7 +29,7 @@
 					width:23px;
 				}
 				img{
-					margin:0px 8px;
+					margin:0 8px;
 					height: 20px;
 					width:20px;
 				}
