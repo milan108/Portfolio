@@ -1,6 +1,11 @@
+@import '../../MediaQueries.scss';
+
 .Section {
     height:600px;
     width:100%;
     display:flex;
-    flex-direction: row;
+    @include lg{
+        flex-direction: row;
+    }    
+    flex-direction: column;
 }

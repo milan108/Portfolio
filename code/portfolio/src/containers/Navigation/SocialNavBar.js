@@ -13,11 +13,11 @@ const SocialNavBar = props => {
 				<ul>
 					<li><span className='mobile'><img src={phone} alt="" /></span>647-221-7265</li>
 					<li><span className='envelope'><img src={envelope} alt="" /></span>milan.lastname@outlook.com</li>
-					<li><img src={github_logo} alt="" />milan108</li>
-					<li><img src={linkedin_logo} alt="" />milan-m</li>
+					<li><a href='https://www.github.com/milan108' target='_blank' rel="noopener noreferrer"><img src={github_logo} alt="" />milan108</a></li>
+					<li><a href = 'https://www.linkedin.com/in/milan-m' target='_blank' rel="noopener noreferrer"><img src={linkedin_logo} alt="" />milan-m</a></li>
 				</ul>	
 			</div>
-		</Nav>
+		</Nav>	
 	);
 };
 

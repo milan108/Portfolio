@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Section from './containers/Section/Section';
 import Title from './components/Title/Title';
 import EnergyDrink from './components/EnergyDrink/EnergyDrink';
