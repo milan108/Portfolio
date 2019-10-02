@@ -11,7 +11,7 @@ function App() {
                 <Title />
                 <EnergyDrink />
             </Section>
-            <Section color='#000'></Section>
+            <Section color='#c0c0c0'></Section>
         </div>
     );
 }

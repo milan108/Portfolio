@@ -9,7 +9,7 @@ import './EnergyDrink.scss';
 const EnergyDrink = props => {
     const [image, setImage] = useState(can0);
 
-    function sleep(ms) {
+    const sleep =(ms)=> {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
 
@@ -19,7 +19,7 @@ const EnergyDrink = props => {
         const cycleImages = async () => {
             for (let i of images) {
                 setImage(i);
-                await sleep(300);
+                await sleep(250);
             }
 
             for (let i = images.length - 1; i > -1;i--) {
