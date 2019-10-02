@@ -3,10 +3,13 @@
     "",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\Title",
+    "\\src\\components\\EnergyDrink",
     "\\src\\containers",
-    "\\src\\containers\\Cards"
+    "\\src\\containers\\Cards",
+    "\\src\\containers\\Navigation",
+    "\\src\\containers\\Section",
+    "\\src\\images"
   ],
-  "SelectedNode": "\\src\\containers\\Cards\\Card.js",
+  "SelectedNode": "\\src\\App.js",
   "PreviewInSolutionExplorer": false
 }

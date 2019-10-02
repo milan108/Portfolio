@@ -3,6 +3,8 @@ import './App.scss';
 import Section from './containers/Section/Section';
 import Title from './components/Title/Title';
 import EnergyDrink from './components/EnergyDrink/EnergyDrink';
+import FlipCard from './containers/Cards/FlipCard';
+
 
 function App() {
     return (
@@ -11,7 +13,9 @@ function App() {
                 <Title />
                 <EnergyDrink />
             </Section>
-            <Section color='#c0c0c0'></Section>
+            <Section color='#c0c0c0'>
+                <FlipCard/>
+            </Section>
         </div>
     );
 }
