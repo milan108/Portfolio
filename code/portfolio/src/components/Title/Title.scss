@@ -2,28 +2,16 @@
 
 .Title {
     @include lg{
-        margin: auto 120px;
+        margin: auto 200px;
     }
     margin: auto 100px;
     font-size: 70px;
     font-weight: 800;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    animation: onLoad .4s ease-in forwards;
     z-index: 2;
     
     span {
         color: #0c00ff;
     }
 
-    @keyframes onLoad {
-        0% {
-            transform: translateX(-80%);
-            opacity: 0;
-        }
-
-        100% {
-            transform: translateX(0);
-            opacity: 1;
-        }
-    }
 }

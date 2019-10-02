@@ -1,10 +1,11 @@
 .EnergyDrink {
-    margin:auto 10px;
+    margin: auto 10px;
     z-index: 2;
+    display:block;
 
     img {
         width: 220px;
         height: 520px;
-        transform: rotate(-10deg);
     }
+ 
 }
