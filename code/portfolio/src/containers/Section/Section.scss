@@ -1,11 +1,21 @@
 @import '../../MediaQueries.scss';
 
 .Section {
-    height:700px;
-    width:100%;
-    display:flex;
-    @include lg{
-        flex-direction: row;
-    }    
-    flex-direction: column;
+    height: 700px;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction:column;
+
+    @include lg {
+        flex-direction:row;
+        padding: 20px 200px;
+    }
+
 }
+
+.no-padding {
+    padding: 0;
+}
+
+

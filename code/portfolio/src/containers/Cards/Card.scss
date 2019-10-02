@@ -1,9 +1,7 @@
 .Card {
     width: 400px;
     height: 350px;
-    box-shadow: 2px 2px 2px #000;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    perspective: 1000px; // adds the 3d effect
 
     .FlipCard {
         position: relative;
@@ -13,22 +11,22 @@
         transition: transform 0.8s;
         transform-style: preserve-3d;
 
-
-
         .FlipCard-front, .FlipCard-back {
             position: absolute;
             width: 100%;
             height: 100%;
             backface-visibility: hidden;
         }
-        /* Style the front side (fallback if image is missing) */
+
         .FlipCard-front {
-            background-color: #bbb;
+            box-shadow: 1px 2px 3px #000;
+            background-color: #0c00ff;
             color: black;
         }
         /* Style the back side */
         .FlipCard-back {
-            background-color: dodgerblue;
+            box-shadow: 1px 2px 3px #000;
+            background-color: #000;
             color: white;
             transform: rotateY(180deg);
         }

@@ -9,12 +9,13 @@ import FlipCard from './containers/Cards/FlipCard';
 function App() {
     return (
         <div className="App">
-            <Section color='#F7F9F9' >
+            <Section color='#F7F9F9'>
                 <Title />
                 <EnergyDrink />
             </Section>
             <Section color='#c0c0c0'>
-                <FlipCard/>
+                <h1>TECHNOLOGIES</h1>
+                <FlipCard />
             </Section>
         </div>
     );
