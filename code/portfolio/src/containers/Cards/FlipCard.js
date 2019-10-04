@@ -9,14 +9,7 @@ const FlipCard = props => {
     return (
         <Card color='transparent'>
             <div className={isFlipped ? "FlipCard FlipCard-flipped" : "FlipCard"} onClick={() => setIsFlipped(!isFlipped)}>
-                <div className="FlipCard-front">
-                    <h1>React</h1>
-                </div>
-                <div className="FlipCard-back">
-                    <h1>John Doe</h1>
-                    <p>Architect & Engineer</p>
-                    <p>We love that guy</p>
-                </div>
+               {props.children}
             </div>
         </Card>
     );
