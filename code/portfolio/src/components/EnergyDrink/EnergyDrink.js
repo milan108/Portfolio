@@ -24,8 +24,9 @@ const EnergyDrink = props => {
 
             for (let i = images.length - 1; i > -1;i--) {
                 setImage(images[i]);
-                await sleep(300);
+                await sleep(200);
             }
+
             cycleImages();
         }
         cycleImages();

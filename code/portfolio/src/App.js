@@ -15,7 +15,7 @@ function App() {
                     <EnergyDrink />
                 </div>
             </Section>
-            <Section color='#c0c0c0'>
+            <Section color='#F7F9F9'>
                 <div className='column-lg'>
                     <h1>TECHNOLOGIES</h1>
                     <div className='row-lg'>
