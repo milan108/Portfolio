@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import can0 from '../../images/cans/can00.png';
-import can1 from '../../images/cans/can01.png';
-import can2 from '../../images/cans/can02.png';
-import can3 from '../../images/cans/can03.png';
-import can4 from '../../images/cans/can04.png';
+import can0 from '../../assets/images/cans/can00.png';
+import can1 from '../../assets/images/cans/can01.png';
+import can2 from '../../assets/images/cans/can02.png';
+import can3 from '../../assets/images/cans/can03.png';
+import can4 from '../../assets/images/cans/can04.png';
 import './EnergyDrink.scss';
 
 const EnergyDrink = props => {

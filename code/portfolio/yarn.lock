@@ -8591,6 +8591,11 @@ react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
+react-particles-js@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/react-particles-js/-/react-particles-js-2.4.0.tgz#8c95dafb6e9bcf392c96dd30888e76001c748ed3"
+  integrity sha512-J3qd/OxmDJf4wBFnuRPnMFADvnEEEsLjfNX4fGEYUwA77suoVddFVrCy+A2CTvTVfHVlBkxKvn2Tqp5cCGuxug==
+
 react-router-dom@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-5.1.1.tgz#53caa089c291f64c1d597a52827b978b54d7c25d"

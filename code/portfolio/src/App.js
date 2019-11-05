@@ -2,19 +2,17 @@ import React from 'react';
 import './App.scss';
 import Section from './containers/Section/Section';
 import Title from './components/Title/Title';
-import EnergyDrink from './components/EnergyDrink/EnergyDrink';
 import FlipCard from './containers/Cards/FlipCard';
-
+import ParticleSection from './containers/Section/ParticleSection';
 
 function App() {
     return (
         <div className="App">
-            <Section color='#F7F9F9'>
-                <div className='row-lg'>
+
+            <ParticleSection>
                     <Title />
-                    <EnergyDrink />
-                </div>
-            </Section>
+            </ParticleSection>
+
             <Section color='#F7F9F9'>
                 <div className='column-lg'>
                     <h1>TECHNOLOGIES</h1>

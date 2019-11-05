@@ -1,16 +1,26 @@
 @import '../../MediaQueries.scss';
 
 .Section {
-    height: 700px;
     width: 100%;
+    height: 1000px;
     padding: 0 20px;
     display: flex;
 
     @include lg {
-        padding: 20px 200px;
     }
 
+    .ParticleSection {
+        @include lg {
+            width: 100%;
+        }
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
+
 
 .row-lg{
     @include lg{
