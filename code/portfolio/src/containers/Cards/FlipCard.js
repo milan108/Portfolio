@@ -7,9 +7,9 @@ const FlipCard = props => {
     const [isFlipped, setIsFlipped] = useState(false);
 
     return (
-        <Card color='transparent'>
+        <Card color='transparent' width={props.width} height={props.height}>
             <div className={isFlipped ? "FlipCard FlipCard-flipped" : "FlipCard"} onClick={() => setIsFlipped(!isFlipped)}>
-               {props.children}
+                {props.children}
             </div>
         </Card>
     );
