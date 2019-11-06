@@ -4,11 +4,14 @@ import Section from './containers/Section/Section';
 import Title from './components/Title/Title';
 import FlipCard from './containers/Cards/FlipCard';
 import ParticleSection from './containers/Section/ParticleSection';
+import TopNavBar from './containers/Navigation/TopNavBar';
+
 
 function App() {
     return (
         <div className="App">
-
+            <TopNavBar />
+            
             <ParticleSection>
                     <Title />
             </ParticleSection>

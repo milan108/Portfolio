@@ -21,32 +21,27 @@
         }
     }
 
-    .Nav-Social {
-        background-color: #000;
-        margin: 8px 0 0 0;
-
-        ul {
-            margin: 0 6px;
-
-            li {
-                text-decoration: none;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', sans-serif;
-                font-weight: 500;
-                font-size: 17px;
-                color: #fff;
-
-                .mobile img {
-                    width: 18px;
-                }
-
-                .envelope img {
-                    width: 18px;
-                }
-
-                img {
-                    margin: 0 8px;
-                    height: 14px;
-                    width: 14px;
+    .Nav-Top {
+        width: 100%;
+        position:absolute;
+        top: 0;
+        z-index: 1;
+        
+        .Nav-Social {
+            margin: 20px;
+            ul {
+                margin: 0 6px;
+                li {
+                    text-decoration: none;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', sans-serif;
+                    font-weight: 500;
+                    font-size: 17px;
+                    color: #fff;
+                    img {
+                        margin: 0 8px;
+                        height: 30px;
+                        width: 30px;
+                    }
                 }
             }
         }
