@@ -2,8 +2,6 @@ import React from 'react';
 import './Nav.scss';
 import github_logo from '../../assets/images/github_logo.png';
 import linkedin_logo from '../../assets/images/linkedin_logo.png';
-import phone from '../../assets/images/phone.png';
-import envelope from '../../assets/images/envelope.png';
 
 const SocialNavBar = props => {
 	return (

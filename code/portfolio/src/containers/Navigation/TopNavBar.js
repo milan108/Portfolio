@@ -6,7 +6,13 @@ import './Nav.scss';
 const TopNavBar = props => {
     return (
         <Nav>
-            <div className='Nav-Top'>
+            <div className = 'Nav-Top'>
+                <ul>
+                    <li><a href="#">SUMMARY</a></li>
+                    <li><a href="#">TECHNOLOGIES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+
                 <SocialNavBar />
             </div>
         </Nav>
