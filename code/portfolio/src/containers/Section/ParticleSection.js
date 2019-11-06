@@ -7,7 +7,7 @@ import './Section.scss';
 const ParticleSection = props => {
 
     return (
-        <Section>
+        <Section color="#05386b">
             <div className="ParticleSection">
                 <Particles params={ParticleConfig} />
                 {props.children}
