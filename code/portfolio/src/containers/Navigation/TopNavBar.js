@@ -8,9 +8,8 @@ const TopNavBar = props => {
         <Nav>
             <div className = 'Nav-Top'>
                 <ul>
-                    <li><a href="#">SUMMARY</a></li>
-                    <li><a href="#">TECHNOLOGIES</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#About">ABOUT</a></li>
+                    <li><a href="#Contact">CONTACT</a></li>
                 </ul>
 
                 <SocialNavBar />

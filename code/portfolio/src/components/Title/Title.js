@@ -10,7 +10,7 @@ const Title = props => {
     }
 
     useEffect(() => {
-        const words = ["UX", "UI", "Experiences", "Dreams", "Ambitions", "Designs", "Customer Satisfaction", "Solutions", "Ecosystem"];
+        const words = ["UX", "UI", "Experiences", "Ambitions", "Designs", "Customer Satisfaction", "Solutions", "Ecosystem", "Marketing"];
 
         const cycleWords = async () => {
             for (let i of words) {
@@ -26,7 +26,7 @@ const Title = props => {
 
     return (
         <div className="Title">
-            I'd love to help build your <br /> <span className="word">{word}.</span>
+            I'd love to help with your <br /> <span className="word">{word}.</span>
         </div>
     );
 }
