@@ -1,27 +1,27 @@
 @import '../../MediaQueries.scss';
 
 .Title {
-    @include lg {
-        font-size: 30px;
-        margin: auto 0;
-        width: 100%;
-    }
-
     font-size: 20px;
-    .word {
-        @include lg{
-            font-size: 100px;
-        }
-        font-size: 35px;
-    }
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    z-index: 2;
     text-align: center;
     color: #f2f2f2;
     //color: #659dbd;
     font-weight: 800;
     width:500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    position: absolute;
+    top: 15%;
+    @include lg {
+        top: 40%;
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .word {
+        font-size: 35px;
+        @include lg{
+            font-size: 100px;
+        }
+    }
 }

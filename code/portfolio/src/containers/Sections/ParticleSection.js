@@ -2,18 +2,15 @@ import React from 'react';
 import Section from './Section';
 import Particles from 'react-particles-js';
 import ParticleConfig from '../../assets/particles.json';
-import './Section.scss';
+import './Sections.scss';
 
 const ParticleSection = props => {
 
     return (
-        <Section color="#05386b">
             <div className="ParticleSection">
-                <Particles params={ParticleConfig} />
+                <Particles className="Particles" params={ParticleConfig} />
                 {props.children}
             </div>
-        </Section>
-
     );
 };
 
