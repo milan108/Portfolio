@@ -1,7 +1,6 @@
 @import '../../MediaQueries.scss';
 
 .ParticleSection {
-
     .Particles {
         width:100%;
         position: absolute;
@@ -10,6 +9,7 @@
     }
     background-color: #05386b;
     height:260px;
+
     @include lg {
         height:955px;
     }
@@ -17,10 +17,33 @@
 
 .ValuesSection {
     width:100%;
-    height: 200px;
-    text-align: center;
+    background-color: #111;
+    height: 300px;
+    font-size: 17px;
+    padding:40px 0 0 40px;
     @include lg {
-        height: 400px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .ValueCards{
+        display: flex;
+        flex-direction: column;
+        margin:auto auto;
+
+        @include lg {
+            flex-direction: row;
+        }
+    }
+    
+    span {
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 600;
+
+        @include lg {
+            font-size: 70px;
+        }
     }
 }
 

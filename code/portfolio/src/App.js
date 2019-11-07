@@ -9,9 +9,11 @@ function App() {
     return (
         <div className="App">
             <TopNavBar />
+            
             <ParticleSection>
                 <Title />
             </ParticleSection>
+            
             <ValuesSection />
         </div >
     );

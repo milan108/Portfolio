@@ -6,21 +6,23 @@ import Card from '../Cards/Card';
 
 const ValuesSection = props => {
     return (
-            <div className='ValuesSection row-lg' id = "values">
-                <Fade bottom cascade>
-                    <Card width="420px" height="200px">
-                        <div style={{ fontSize: "70px", fontWeight: "bold" }}>CONCISE</div>
-                        Not overcomplicated. Not oversimplifed.
-                    </Card>
-                    <Card width="420px" height="200px">
-                        <div style={{ fontSize: "70px", fontWeight: "bold" }}>REUSABLE</div>
-                        Good modularity is key to my process.
-                    </Card>
-                    <Card width="420px" height="200px">
-                        <div style={{ fontSize: "70px", fontWeight: "bold" }}>ELEGANT</div>
-                        Smart design on both sides of the fence.
-                    </Card>
-                    <br /><br />
+            <div className='ValuesSection row-lg'  id = "values">
+                <Fade bottom>
+                    <div className="ValueCards">
+                        <Card width="420px" height="100px">
+                            <span>CONCISE</span><br />
+                            Not overcomplicated. Not oversimplifed.
+                        </Card>
+                        <Card width="420px" height="100px">
+                            <span>REUSABLE</span><br />
+                            Good modularity is key to my process.
+                        </Card>
+                        <Card width="420px" height="100px">
+                            <span>ELEGANT</span><br />
+                            Smart design on both sides of the fence.
+                        </Card>
+                        <br /><br />
+                    </div>
                 </Fade>
             </div>
     );
