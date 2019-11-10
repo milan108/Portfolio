@@ -1,76 +1,88 @@
-@import '../../MediaQueries.scss';
+@import "../../MediaQueries.scss";
 
 .ParticleSection {
-    .Particles {
-        width:100%;
-        position: absolute;
-        top: 0%;
-        left:0%;
-    }
-    background-color: #05386b;
-    height:260px;
-
-    @include lg {
-        height:955px;
-    }
+  .Particles {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+  }
+  height: 250px;
+  @include lg {
+    height: 960px;
+  }
+  background-color: #05386b;
 }
 
 .ValuesSection {
-    width:100%;
-    background-color: #111;
-    height: 300px;
-    font-size: 17px;
-    padding:40px 0 0 40px;
+  width: 100%;
+  background-color: #111;
+  height: 300px;
+  font-size: 17px;
+  padding: 40px 0 0 0;
+
+  @include lg {
+    padding: 0;
+    text-align: center;
+  }
+
+  .ValueCards {
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+
     @include lg {
-        padding: 0;
-        text-align: center;
+      flex-direction: row;
     }
 
-    .ValueCards{
-        display: flex;
-        flex-direction: column;
-        margin:auto auto;
+    .Card {
+      height: 100px;
+      width: 350px;
+      margin: 10px 0 0 10px;
 
-        @include lg {
-            flex-direction: row;
-        }
+      @include lg {
+        width: 420px;
+        margin: 0;
+      }
     }
-    
-    span {
-        font-size: 20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-weight: 600;
+  }
 
-        @include lg {
-            font-size: 70px;
-        }
+  span {
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 600;
+
+    @include lg {
+      font-size: 70px;
     }
+  }
 }
 
 .row-lg {
-    @include lg {
-        display: flex;
-        flex-direction: row;
-    }
+  @include lg {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .column-lg {
-    @include lg {
-        display: flex;
-        flex-direction: column;
-    }
+  @include lg {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .row-sm {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .column-sm {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .no-padding {
-    padding: 0;
+  padding: 0;
 }

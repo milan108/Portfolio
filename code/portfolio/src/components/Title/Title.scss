@@ -7,15 +7,14 @@
     color: #f2f2f2;
     //color: #659dbd;
     font-weight: 800;
-    width:500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
     position: absolute;
     top: 15%;
+    width: 100%;
+
     @include lg {
         top: 40%;
         font-size: 30px;
-        width: 100%;
     }
 
     .word {

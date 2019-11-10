@@ -1,5 +1,4 @@
 import React from 'react';
-import Section from './Section';
 import Particles from 'react-particles-js';
 import ParticleConfig from '../../assets/particles.json';
 import './Sections.scss';

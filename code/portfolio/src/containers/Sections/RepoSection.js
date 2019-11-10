@@ -1,5 +1,4 @@
 import React from 'react';
-import Section from './Section';
 import './Sections.scss';
 import Fade from 'react-reveal/Fade';
 import Card from '../Cards/Card';
