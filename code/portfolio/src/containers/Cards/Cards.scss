@@ -1,8 +1,13 @@
 @import "../../MediaQueries.scss";
 
 .RepoCard {
+  margin: 0 0 20px 0;
+  @include lg {
+    margin: 30px;
+  }
   img {
     width: 100%;
     height: 100%;
   }
+
 }

@@ -69,12 +69,7 @@
   .RepoCards {
     margin: auto auto;
     padding: 20px 10px;
-    .RepoCard {
-      margin: 0 0 20px 0;
-      @include lg{
-        margin: 30px;
-      }
-    }
+
   }
 }
 
