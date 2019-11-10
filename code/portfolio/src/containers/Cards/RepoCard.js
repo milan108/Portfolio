@@ -5,7 +5,6 @@ const RepoCard = props => {
 
     const [hover, setHover] = useState(false);
 
-
     return (
         <div className="RepoCard" onMouseEnter={() => { setHover(!hover) }} onMouseLeave={() => { setHover(!hover) }}>
             <img src={props.image} />

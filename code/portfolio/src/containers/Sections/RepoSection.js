@@ -6,7 +6,8 @@ import RepoCard from '../Cards/RepoCard';
 
 const RepoSection = props => {
     return (
-        <div className='RepoSection row-lg' id="values">
+        <div className='RepoSection' id="Repos">
+            <h1>REPOSITORIES</h1>
             <Slide bottom>
                 <div className="row-lg RepoCards">
                     <RepoCard image = {img_algo} title = "Algorithms" description = "An collection of algorithms written in whatever language I please." url = "https://github.com/milan108/Algorithms" />

@@ -10,6 +10,7 @@ const TopNavBar = props => {
                 <ul>
                     <li><a href="#About">ABOUT</a></li>
                     <li><a href="#Contact">CONTACT</a></li>
+                    <li><a href="#Repos">REPOS</a></li>
                 </ul>
 
                 <SocialNavBar />
