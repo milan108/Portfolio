@@ -43,7 +43,6 @@
 
       @include lg {
         width: 420px;
-        margin: 0;
       }
     }
   }
@@ -55,6 +54,25 @@
 
     @include lg {
       font-size: 70px;
+    }
+  }
+}
+
+.RepoSection {
+  width: 100%;
+  background: #111;
+  
+  @include lg{
+    height: 400px;
+  }
+  .RepoCards {
+    margin: auto auto;
+    padding: 20px 10px;
+    .Card {
+      margin: 0 0 20px 0;
+      @include lg{
+        margin: 30px;
+      }
     }
   }
 }

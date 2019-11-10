@@ -1,12 +1,12 @@
 import React from 'react';
 import './Sections.scss';
-import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 import Card from '../Cards/Card';
 
 const ValuesSection = props => {
     return (
             <div className='ValuesSection row-lg'  id = "values">
-                <Fade bottom>
+                <Slide bottom>
                     <div className="ValueCards">
                         <Card>
                             <span>CONCISE</span><br />
@@ -22,7 +22,7 @@ const ValuesSection = props => {
                         </Card>
                         <br /><br />
                     </div>
-                </Fade>
+                </Slide>
             </div>
     );
 };
