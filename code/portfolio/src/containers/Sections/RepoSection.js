@@ -9,10 +9,12 @@ const RepoSection = props => {
         <div className='RepoSection row-lg' id="values">
             <Slide bottom>
                 <div className="row-lg RepoCards">
-                    <RepoCard image = {img_algo}/>
-                    <RepoCard image = {img_algo}/>
-                    <RepoCard image = {img_algo}/>
-                    <RepoCard image = {img_algo}/>
+                    <RepoCard image = {img_algo} title = "Algorithms" description = "An collection of algorithms written in whatever language I please." url = "https://github.com/milan108/Algorithms" />
+                    <RepoCard image = {img_algo} title = "Algorithms" description = "An collection of algorithms written in whatever language I please." url = "https://github.com/milan108/Algorithms" />
+                    <RepoCard image = {img_algo} title = "Algorithms" description = "An collection of algorithms written in whatever language I please." url = "https://github.com/milan108/Algorithms" />
+                    <RepoCard image = {img_algo} title = "Algorithms" description = "An collection of algorithms written in whatever language I please." url = "https://github.com/milan108/Algorithms" />
+                    
+               
                 </div>
             </Slide>
         </div>

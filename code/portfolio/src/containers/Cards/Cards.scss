@@ -2,12 +2,131 @@
 
 .RepoCard {
   margin: 0 0 20px 0;
+  width: 325px;
+  height: 175px;
+  position: relative;
+
   @include lg {
     margin: 30px;
+    width: 400px;
+    height: 250px;
   }
   img {
     width: 100%;
     height: 100%;
+    z-index: 1;
+    border-radius: 8px;
+  }
+  a {
+    padding: 8px;
+    border: solid 1px #f2f2f2;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #f2f2f2;
+    opacity: 0;
+    position: absolute;
+    bottom: 5%;
+    margin: 10px 20px;
+    &:hover {
+      background-color: #111;
+      transition: all 0.15s ease-in;
+    }
+  }
+  .text-box {
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0.95;
+    background-color: #05386b;
+    width: 100%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #f2f2f2;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    .title {
+      font-size: 25px;
+      font-weight: 800;
+      margin: 10px 20px;
+    }
+    p {
+      margin: 10px 20px;
+    }
   }
 
+  &:hover {
+  }
+}
+
+.showOverlay {
+  width: 100%;
+  height: 100%;
+  animation: showOverlay 0.2s ease-out forwards;
+}
+
+
+.hideOverlay {
+  width: 100%;
+  height: 100%;
+  animation: hideOverlay 0.2s ease-out forwards;
+}
+
+.showButton {
+  animation: showButton 0.2s ease-out forwards;
+}
+
+@keyframes showOverlay {
+  0% {
+    height: 100px;
+  }
+  20% {
+    height: 140px;
+  }
+  40% {
+    height: 160px;
+  }
+  60% {
+    height: 180px;
+  }
+  80% {
+    height: 200px;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes hideOverlay {
+  0% {
+    height: 100%;
+  }
+  20% {
+    height: 200px;
+  }
+  40% {
+    height: 180px;
+  }
+  60% {
+    height: 160px;
+  }
+  80% {
+    height: 140px;
+  }
+  100% {
+    height: 100px;
+  }
+}
+
+
+@keyframes showButton {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.9;
+    background-color: #111;
+  }
 }
