@@ -1,25 +1,24 @@
 import React from 'react';
 import './Sections.scss';
 import Slide from 'react-reveal/Slide';
-import Card from '../Cards/Card';
 
 const ValuesSection = props => {
     return (
             <div className='ValuesSection row-lg'  id = "values">
                 <Slide bottom>
-                    <div className="ValueCards">
-                        <Card>
+                    <div className="Values">
+                        <div className = "Value">
                             <span>CONCISE</span><br />
                             Not overcomplicated. Not oversimplifed.
-                        </Card>
-                        <Card>
+                        </div>
+                        <div className = "Value">
                             <span>REUSABLE</span><br />
                             Good modularity is key to my process.
-                        </Card>
-                        <Card>
+                        </div>
+                        <div className = "Value">
                             <span>ELEGANT</span><br />
                             Smart design on both sides of the fence.
-                        </Card>
+                        </div>
                         <br /><br />
                     </div>
                 </Slide>

@@ -27,7 +27,7 @@
     text-align: center;
   }
 
-  .ValueCards {
+  .Values {
     display: flex;
     flex-direction: column;
     margin: auto auto;
@@ -36,10 +36,11 @@
       flex-direction: row;
     }
 
-    .Card {
+    .Value {
       height: 100px;
       width: 350px;
       margin: 10px 0 0 10px;
+      color: #f2f2f2;
 
       @include lg {
         width: 420px;
@@ -68,7 +69,7 @@
   .RepoCards {
     margin: auto auto;
     padding: 20px 10px;
-    .Card {
+    .RepoCard {
       margin: 0 0 20px 0;
       @include lg{
         margin: 30px;
