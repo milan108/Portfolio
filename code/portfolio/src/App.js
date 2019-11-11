@@ -5,6 +5,8 @@ import Title from './components/Title/Title';
 import ParticleSection from './containers/Sections/ParticleSection';
 import ValuesSection from './containers/Sections/ValuesSection';
 import RepoSection from './containers/Sections/RepoSection';
+import Footer from './containers/Sections/Footer';
+import AboutSection from './containers/Sections/AboutSection';
 
 function App() {
     return (
@@ -17,7 +19,9 @@ function App() {
             
             <RepoSection />
 
-            <ValuesSection />
+            <AboutSection />
+
+            <Footer />
         </div >
     );
 }
