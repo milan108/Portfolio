@@ -21,7 +21,7 @@ const AboutCard = props => {
                         </div>
                 <br /><br />
             </div>
-            <p>I am an experienced front end web developer who has experience with Angular, React, HTML, CSS/SASS, Node, and ES6. I also do graphic design and have adept Photoshop skills.
+            <p>I am an Toronto based front end web developer who has experience with Angular, React, HTML, CSS/SASS, Node, and ES6. I also do graphic design and have adept Photoshop skills.
             I am constantly upgrading and learning new things, so feel free to ask about my current interests.<br /> <br /> Thank you,<br />Milan Miljkovic</p>
         </div>
     );
