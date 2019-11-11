@@ -1,11 +1,9 @@
 import React from 'react';
 import './Sections.scss';
-import Slide from 'react-reveal/Slide';
 
 const ValuesSection = props => {
     return (
         <div className='ValuesSection row-lg' id="values">
-            <Slide bottom>
                 <div className="Values">
                     <div className="Value">
                         <span>CONCISE</span><br />
@@ -21,7 +19,6 @@ const ValuesSection = props => {
                         </div>
                     <br /><br />
                 </div>
-            </Slide>
         </div>
     );
 };
