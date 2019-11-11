@@ -10,8 +10,8 @@ const ContactSection = prop => {
 
             I'm Toronto based. Here's how you can reach me.
             <ul>
-                <li><img src = {envelope} width = "40px" height = "30px" alt = "" /><span>MILAN.LASTNAME@OUTLOOK.COM</span></li>
-                <li><img src = {phone} width = "40px" height = "30px" alt = "" /><span>+1 647-221-7265</span></li>
+                <li><img src = {envelope} width = "35px" height = "25px" alt = "" /><span>MILAN.LASTNAME@OUTLOOK.COM</span></li>
+                <li><img src = {phone} width = "35px" height = "25px" alt = "" /><span>+1 647-221-7265</span></li>
             </ul>
         </div>
     
