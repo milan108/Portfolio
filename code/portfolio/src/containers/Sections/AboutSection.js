@@ -1,5 +1,4 @@
 import React from 'react';
-import Slide from 'react-reveal/Slide';
 import AboutCard from '../Cards/AboutCard';
 import './Sections.scss'
 

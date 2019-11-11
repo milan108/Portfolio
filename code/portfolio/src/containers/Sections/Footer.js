@@ -4,7 +4,7 @@ import './Sections.scss';
 const Footer = props => {
     return (
         <div className="Footer row-lg">
-            @Copyright 2019 
+            <p>@Copyright 2019</p> 
         </div>
 
     );

@@ -5,7 +5,7 @@ import '../Sections/Sections.scss'
 const AboutCard = props => {
     return (
         <div className='AboutCard'>
-            <p>My name is Milan Miljkovic, and I take joy in building solutions that are not only enticing and immersive but also abide by the below core values:</p>
+            <p>My name is Milan Miljkovic, and I take joy in building solutions that are not only enticing and immersive but also abide by the following core values:</p>
             <div className="Values">
                 <div className="Value">
                     <span>CONCISE</span><br />
@@ -21,7 +21,7 @@ const AboutCard = props => {
                         </div>
                 <br /><br />
             </div>
-            <p>I am an experienced front end web developer who has experience with Angular, React, HTML, CSS/SASS, Node, and ES6. I also do graphic design and have adept Photoshop skills.
+            <p>I am a Toronto based front end web developer who has experience with Angular, React, HTML, CSS/SASS, Node, and ES6. I also do graphic design and am rather adept at Photoshop.
             I am constantly upgrading and learning new things, so feel free to ask about my current interests.<br /> <br /> Thank you,<br />Milan Miljkovic</p>
         </div>
     );
