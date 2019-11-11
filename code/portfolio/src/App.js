@@ -7,6 +7,7 @@ import ValuesSection from './containers/Sections/ValuesSection';
 import RepoSection from './containers/Sections/RepoSection';
 import Footer from './containers/Sections/Footer';
 import AboutSection from './containers/Sections/AboutSection';
+import ContactSection from './containers/Sections/ContactSection';
 
 function App() {
     return (
@@ -21,6 +22,8 @@ function App() {
 
             <AboutSection />
 
+            {/* <ContactSection /> */}
+            
             <Footer />
         </div >
     );
