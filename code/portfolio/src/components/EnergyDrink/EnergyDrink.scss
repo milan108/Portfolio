@@ -1,0 +1,15 @@
+@import '../../MediaQueries.scss';
+
+.EnergyDrink {
+    margin: auto 0px;
+    display: block;
+
+    @include lg{
+        margin: auto 0 auto 200px;
+    }
+
+    img {
+        width: 220px;
+        height: 520px;
+    }
+}

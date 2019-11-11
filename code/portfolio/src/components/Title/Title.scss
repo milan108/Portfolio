@@ -1,0 +1,26 @@
+@import '../../MediaQueries.scss';
+
+.Title {
+    font-size: 20px;
+    z-index: 2;
+    text-align: center;
+    color: #f5f5f5;
+    //color: #659dbd;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 15%;
+    width: 100%;
+
+    @include lg {
+        top: 40%;
+        font-size: 30px;
+    }
+
+    .word {
+        font-size: 35px;
+        @include lg{
+            font-size: 100px;
+        }
+    }
+}
